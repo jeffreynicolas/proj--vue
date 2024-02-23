@@ -16,7 +16,7 @@ function decrementar() {
 <template>
   
   <button @click="contador ++"> + </button>
-  <button @click="decrementar--"> - </button>
+  <button @click="decrementar"> - </button>
   <p> o valor do contador  é : {{ contador }}</p>
 
 </template>
